@@ -9,7 +9,7 @@ To make it easier-
 - We then use linear regression to find the target intercept and the slope of the line.
 - We start with the intercept at 0 (the blue line) and the target intercept is (the red line).
 - In other words our starting point is the blue line and we have to move to the red line to make a perfect model with the least errors.
-- We use the cost function formula with the gradient decent formula and move the line upwards and hence we form a new line with a higher intercept (the green line).
-- We slowly go upwards step by step with the help of learning rate.
+- We use the cost function formula with the gradient decent formula and move the line upwards, hence we form a new line with an intercept more than the previous intercept which was 0.
+- We slowly go upwards step by step with the help of learning rate (the new line formed is the green line).
 - Now to make it easier we used a for loop and mentioned within how many iteration we will get the targeted line.
 - And hence we find the accuracy score to show how accurate our model was.
