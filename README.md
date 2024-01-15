@@ -2,7 +2,7 @@
 This python program helps to minimize the cost function in this model during the training process. The primary goal is to find the optimal parameters (weights and biases) that minimize the error between the predicted and actual values.
 This program helps to understand gradient decent better on how it works.
 
-To make it easier-
+briefing about how the program works-
 - We first import the packages and then import the dataset which is in the form of csv.
 - We then seprate the two columns and store it X and y variable corresponding with its axis.
 - We then scatter the points in the graph.
